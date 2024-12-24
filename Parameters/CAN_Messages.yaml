@@ -1,0 +1,49 @@
+can_messages:
+  - id: 0x1
+    parameters:
+      - name: "engineSpeed"
+        position: 1
+        length: 2
+        unit: "rpm"
+      - name: "lambda"
+        position: 3
+        length: 1
+        unit: "AFR"
+      - name: "oilPressure"
+        position: 4
+        length: 1
+        unit: "psi"
+      - name: "manifoldPressure"
+        position: 5
+        length: 1
+        unit: "psi"
+      - name: "fuelPressure"
+        position: 6
+        length: 1
+        unit: "psi"
+      - name: "ethanolContent"
+        position: 7
+        length: 1
+        unit: "%"
+  - id: 0x2
+    parameters:
+      - name: "throttlePosition"
+        position: 1
+        length: 1
+        unit: "%"
+      - name: "coolantTemperature"
+        position: 2
+        length: 1
+        unit: "F"
+      - name: "intakeAirTemperature"
+        position: 3
+        length: 1
+        unit: "F"
+      - name: "batteryVoltage"
+        position: 4
+        length: 1
+        unit: "volts"
+      - name: "engineRunTime"
+        position: 5
+        length: 2
+        unit: "sec"
