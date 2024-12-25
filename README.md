@@ -4,7 +4,7 @@
 The goal of this project is to create an ECU that works adjacently with the main engine computer, providing more I/Os and customized algorithms and dynamic estimations of the vehicle. This will also have GPS data and serve as a lap timer + lap data collector, providing important metrics of the vehicle's behavior to determine performance during track days.
 
 ## **Implementation**
-There a few different categories of the implementation:
+The implementation is done primarily in C, on an STM32H7 microcontroller.
 ### **Signal Processing**
 This project utilizes an STM microcontroller that directly gets the following sensor data:
 - **3-Axis Acceleration**: From a BNO-055 IMU communicating over SPI, the STM microcontroller gets acceleration in all three axes. The accelerometer is placed near the CG of the vehicle for the best measurements of the vehicle's dynamics.
