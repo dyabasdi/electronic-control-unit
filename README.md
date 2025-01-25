@@ -1,4 +1,4 @@
-# Vehicle Electronic Control Unit
+# Vehicle Electronic Control Unit - BMW E36
 
 ## **Goal**
 The goal of this project is to create an ECU that works adjacently with the main engine computer, providing more I/Os and customized algorithms and dynamic estimations of the vehicle. This will also have GPS data and serve as a lap timer + lap data collector, providing important metrics of the vehicle's behavior to determine performance during track days.
